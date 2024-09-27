@@ -18,6 +18,9 @@ importers:
       '@total-typescript/helpers':
         specifier: ~0.0.1
         version: 0.0.1
+      '@types/jest':
+        specifier: ^29.5.13
+        version: 29.5.13
       cross-fetch:
         specifier: ~3.1.5
         version: 3.1.8
@@ -588,6 +591,9 @@ packages:
 
   '@types/istanbul-reports@3.0.4':
     resolution: {integrity: sha512-pk2B1NWalF9toCRu6gjBzR69syFjP4Od8WRAX+0mmf9lAjCRicLOWc+ZrxZHx/0XRjotgkF9t6iaMJ+aXcOdZQ==}
+
+  '@types/jest@29.5.13':
+    resolution: {integrity: sha512-wd+MVEZCHt23V0/L642O5APvspWply/rGY5BcW4SUETo2UzPU3Z26qr8jC2qxpimI2jjx9h7+2cj2FwIr01bXg==}
 
   '@types/node@22.7.1':
     resolution: {integrity: sha512-adOMRLVmleuWs/5V/w5/l7o0chDK/az+5ncCsIapTKogsu/3MVWvSgP58qVTXi5IwpfGt8pMobNq9rOWtJyu5Q==}
@@ -2799,6 +2805,11 @@ snapshots:
   '@types/istanbul-reports@3.0.4':
     dependencies:
       '@types/istanbul-lib-report': 3.0.3
+
+  '@types/jest@29.5.13':
+    dependencies:
+      expect: 29.7.0
+      pretty-format: 29.7.0
 
   '@types/node@22.7.1':
     dependencies:
